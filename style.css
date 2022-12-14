@@ -1,0 +1,59 @@
+
+
+.slider {
+    overflow: hidden;
+    margin: auto;
+    width:50vw;
+    height: 20vw;
+}
+
+header figure {
+    position: relative;
+    width: 600%;
+    margin: 0%;
+    animation: 10s slider infinite;
+}
+
+header figure img {
+    float: right;
+    width: 16.67%;
+}
+
+@keyframes slider {
+
+    0% {
+        right: 0;
+
+    }
+
+    20% {
+        right: 100%;
+
+    }
+
+    
+
+    40% {
+
+        right: 200%;
+    }
+
+    60% {
+
+        right: 300%;
+    }
+
+    80% {
+
+        right: 400%;
+
+    }
+
+    
+
+    100% {
+
+        right: 500%;
+    }
+
+}
